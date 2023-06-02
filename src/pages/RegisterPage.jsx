@@ -23,12 +23,6 @@ function Copyright(props) {
       align="center"
       {...props}
     >
-      {"Copyright © "}
-      <Link color="inherit" href="https://mui.com/">
-        Your Website
-      </Link>{" "}
-      {new Date().getFullYear()}
-      {"."}
     </Typography>
   );
 }
@@ -64,7 +58,7 @@ export default function SignUp() {
             alignItems: "center",
           }}
         >
-          <img src={logo} alt="Logo" style={{ width: "70%" }} />
+          <img src={logo} alt="Logo" style={{ width: "100%" }} />
           <Typography component="h1" variant="h5">
             Sign up
           </Typography>
@@ -75,27 +69,7 @@ export default function SignUp() {
             sx={{ mt: 3 }}
           >
             <Grid container spacing={2}>
-              <Grid item xs={12} sm={6}>
-                <TextField
-                  autoComplete="given-name"
-                  name="firstName"
-                  required
-                  fullWidth
-                  id="firstName"
-                  label="First Name"
-                  autoFocus
-                />
-              </Grid>
-              <Grid item xs={12} sm={6}>
-                <TextField
-                  required
-                  fullWidth
-                  id="lastName"
-                  label="Last Name"
-                  name="lastName"
-                  autoComplete="family-name"
-                />
-              </Grid>
+              
               <Grid item xs={12}>
                 <TextField
                   required
@@ -114,6 +88,17 @@ export default function SignUp() {
                   label="Password"
                   type="password"
                   id="password"
+                  autoComplete="new-password"
+                />
+              </Grid>
+              <Grid item xs={12}>
+                <TextField
+                  required
+                  fullWidth
+                  name="re-enter password"
+                  label="Re-enter Password"
+                  type="Re-enter password"
+                  id="Re-enter password"
                   autoComplete="new-password"
                 />
               </Grid>
@@ -137,7 +122,7 @@ export default function SignUp() {
             </Button>
             <Grid container justifyContent="flex-end">
               <Grid item>
-                <Link href="#" variant="body2" onClick={() => handleClick("/login")}>
+                <Link href="#" variant="body2" onClick={() => handleClick("/")}>
                   Already have an account? Sign in
                 </Link>
               </Grid>
