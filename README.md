@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# FitMate - A website that provides knowledge about exercise.
+  FitMate is an all-in-one fitness platform that offers a wide range of features to help individuals achieve their fitness goals. With a focus on knowledge and practical tools, FitMate provides up-to-date news on fitness trends, comprehensive lessons covering exercise fundamentals and techniques, a fitness checker to assess progress and provide personalized recommendations, and a collection of calculators for tracking calorie intake, macronutrients, and more. Whether users are looking for the latest fitness information, structured lessons, progress tracking, or guidance in their fitness journey, FitMate is the go-to destination to support their pursuit of a healthier and active lifestyle.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Features
+- Lesson: Explore structured lessons and courses covering various fitness topics, such as proper form, exercise fundamentals, injury prevention, and specialized training methods. Learn at your own pace and improve your fitness knowledge.
+- Checker: Assess your current fitness level and track your progress over time using the fitness checker tool. Evaluate body composition, cardiovascular endurance, flexibility, and strength, and receive personalized feedback and recommendations for goal-setting and improvement.
+- Calculators: Utilize a range of fitness calculators to support your fitness goals. Estimate daily caloric needs with the calorie calculator, determine macronutrient breakdown with the macro calculator, and utilize other tools like the BMI calculator, target heart rate calculator, and 1RM calculator.
+- News: Stay up-to-date with the latest news, trends, and advancements in the fitness industry. Get informed about exercise techniques, scientific research findings, nutrition updates, fitness events, and inspiring success stories to stay motivated and informed on your fitness journey.
+# Technologies Used
+- Front-end: HTML, CSS, JavaScript
+- Frameworks/Libraries: React, React Router, MUI
+# Installation
+Clone the repository: git clone https://github.com/jaywbsr/Mini_Project.git
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Path For Frontend 
+- / (login)
+- /register
+- /news
+- /lessons
+- /checker
+- /calculator
+- /* (error)
+# Usage
+1. Open the project in your code editor.
+2. Start the development server: npm start or yarn start.
+3. Access the website in your web browser at http://localhost:3000.
+4. Explore the CozyNook website by searching for accommodations, reading reviews, and viewing accommodation details.
