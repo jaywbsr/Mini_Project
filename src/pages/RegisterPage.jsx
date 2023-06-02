@@ -97,8 +97,8 @@ export default function SignUp() {
                   fullWidth
                   name="re-enter password"
                   label="Re-enter Password"
-                  type="Re-enter password"
-                  id="Re-enter password"
+                  type="password"
+                  id="password"
                   autoComplete="new-password"
                 />
               </Grid>
